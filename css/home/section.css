@@ -1,0 +1,30 @@
+.home-section {
+    padding: 70px 0;
+    text-align: center;
+}
+
+.home-section:nth-child(odd) {
+    background-color: white;
+    border-top: 2px solid #d2d6de;
+    border-bottom: 2px solid #d2d6de;
+}
+
+.home-section:last-child {
+    border-bottom: none;
+}
+
+.home-section:nth-child(0n+3) {
+    border-top: none;
+}
+
+.home-section .section-title {
+    font-size: 35px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.home-section .section-description {
+    font-size: 28px;
+    max-width: 850px;
+    margin: 0 auto 40px auto;
+}

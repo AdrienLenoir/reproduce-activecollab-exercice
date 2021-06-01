@@ -1,0 +1,59 @@
+.app-install .app-install-content {
+    margin-bottom: 60px;
+}
+
+.app-install .app-install-plans {
+    display: flex;
+    justify-content: center;
+}
+
+.app-install .app-install-plan {
+    text-align: center;
+    padding: 50px 100px;
+}
+
+.app-install .app-install-plan:first-child {
+    border-right: 1px solid #778091;
+}
+
+.app-install .app-install-plan .app-install-plan-icon img {
+    height: 80px;
+    width: auto;
+    margin-bottom: 20px;
+}
+
+.app-install .app-install-plan .app-install-plan-title {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.app-install .app-install-plan .app-install-plan-features {
+    margin-bottom: 20px;
+}
+
+.app-install .app-install-plan .app-install-plan-features li {
+    margin-bottom: 5px;
+}
+
+.app-install .app-install-plan .app-install-plan-pricing-button {
+    display: inline-block;
+    padding: 5px 25px;
+    border: 2px solid #24282c;
+    transition: background-color .3s ease-in-out;
+    background-color: #439df5;
+    border-radius: 6px;
+    color: white;
+    margin-right: -2px;
+    font-size: 18px;
+}
+
+.app-install .app-install-plan .app-install-plan-pricing-button:hover {
+    background-color: #5ca6ec;
+}
+
+.app-install .app-install-plan .app-install-plan-info {
+    font-style: italic;
+    margin-top: 15px;
+    font-size: 20px;
+ }

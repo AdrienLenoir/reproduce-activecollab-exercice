@@ -1,0 +1,39 @@
+.about-us {
+    padding-bottom: 0;
+}
+
+.about-us .about-us-content {
+    margin-bottom: 60px;
+}
+
+.about-us .about-us-content .about-us-try-button {
+    display: inline-block;
+    padding: 10px 30px;
+    border: 2px solid #24282c;
+    transition: background-color .3s ease-in-out;
+    background-color: #439df5;
+    border-radius: 6px;
+    color: white;
+    margin-right: -2px;
+    font-size: 22px;
+}
+
+.about-us .about-us-content .about-us-try-button:hover {
+    background-color: #5ca6ec;
+}
+
+.about-us .about-us-content .about-sub-info {
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.about-us .about-us-decorative-content img {
+    max-width: 90%;
+}
+
+.about-us .about-us-decorative-content {
+    background-image: url('../../images/bg.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}

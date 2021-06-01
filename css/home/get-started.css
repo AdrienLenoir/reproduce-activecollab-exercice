@@ -1,0 +1,77 @@
+.get-started .section-description {
+    max-width: 550px;
+}
+
+.get-started .get-started-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #e9edf2;
+    border-radius: 6px;
+    border: 2px solid #778091;
+    text-align: start;
+}
+
+.get-started .get-started-form label, input {
+    display: block;
+}
+
+
+.get-started .get-started-form label {
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.get-started .get-started-form input {
+    margin-bottom: 20px;
+    width: 100%;
+    border: 2px solid #778091;
+    color: #778091;
+    border-radius: 6px;
+    background-color: white;
+    padding: 14px 10px;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+
+.get-started .get-started-form button {
+    cursor: pointer;
+    display: block;
+    width: auto;
+    padding: 10px 25px;
+    border: 2px solid #24282c;
+    transition: background-color .3s ease-in-out;
+    background-color: #439df5;
+    border-radius: 6px;
+    color: white;
+    font-size: 18px;
+    outline: none;
+    margin: 45px auto auto;
+}
+
+.get-started .get-started-form button:hover {
+    background-color: #5ca6ec;
+}
+
+.get-started .get-started-form .get-started-form-sub-info {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 25px;
+}
+
+.get-started .get-started-sub-info {
+    margin-top: 35px;
+    color: #778091;
+}
+
+.get-started .get-started-sub-info a {
+    color: #778091;
+    text-decoration: underline;
+    transition: color .3s ease-in-out;
+}
+
+.get-started .get-started-sub-info a:hover {
+    color: #439df5;
+}

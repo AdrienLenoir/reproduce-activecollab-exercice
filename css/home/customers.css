@@ -1,0 +1,23 @@
+.customers .customers-content {
+    margin-bottom: 60px;
+}
+
+.customers .customers-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.customers .customers-list .customer {
+    margin: 25px;
+}
+
+.customers .customers-list .customer img {
+    height: 60px;
+    width: auto;
+}
+
+.customers .customers-list .customer svg {
+    height: 80px;
+    width: auto;
+}

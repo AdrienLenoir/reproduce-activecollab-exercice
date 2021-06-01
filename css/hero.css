@@ -1,0 +1,116 @@
+
+.hero-header {
+    color: #1d1d1d;
+    font-weight: 600;
+}
+
+.hero-header .hero-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+
+
+.hero-header .hero-navigation .hero-navigation-item {
+    display: block;
+}
+
+.hero-header .hero-navigation .hero-navigation-item a {
+    color: #24282c;
+    transition: color .3s ease-in-out;
+    text-decoration: none;
+}
+
+.hero-header .hero-navigation .hero-navigation-item a:hover {
+    color: #439df5;
+}
+
+.hero-header .hero-navigation .hero-navigation-main .hero-navigation-item:not(:first-child) {
+    margin-left: 25px;
+}
+
+.hero-header .hero-navigation .hero-navigation-second .hero-navigation-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+
+
+.hero-header .hero-navigation .hero-navigation-logo {
+    margin-right: 30px;
+}
+
+.hero-header .hero-navigation .hero-navigation-logo a {
+    display: flex;
+    align-items: center;
+}
+
+.hero-header .hero-navigation .hero-navigation-logo a img {
+    height: 50px;
+    width: auto;
+}
+
+.hero-header .hero-navigation .hero-navigation-logo a span {
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+
+
+.hero-header .hero-navigation .hero-navigation-item-plus a {
+    position: relative;
+    color: #778091;
+}
+
+
+
+.hero-header .hero-navigation .hero-navigation-second .hero-navigation-buttons .try-button, .hero-header .hero-navigation .hero-navigation-second .hero-navigation-buttons .signin-button {
+    padding: 8px 22px;
+    border: 2px solid #24282c;
+    transition: background-color .3s ease-in-out;
+}
+
+.hero-header .hero-navigation .hero-navigation-second .hero-navigation-buttons .try-button {
+    background-color: #439df5;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    color: white;
+    margin-right: -2px;
+}
+
+.hero-header .hero-navigation .hero-navigation-second .hero-navigation-buttons .signin-button {
+    background-color: white;
+    color: #24282c;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.hero-header .hero-navigation .hero-navigation-second .hero-navigation-buttons .try-button:hover {
+    background-color: #5ca6ec;
+}
+
+.hero-header .hero-navigation .hero-navigation-second .hero-navigation-buttons .signin-button:hover {
+    background-color: #eeeeee;
+}
+
+
+.hero-header .hero-navigation .hero-navigation-main {
+    display: flex;
+    align-items: center;
+}
+
+.hero-header .hero-navigation .hero-navigation-second {
+    display: flex;
+    align-items: center;
+}
+
+.hero-header .hero-banner {
+    padding: 50px 0;
+}
+
+.hero-header .hero-banner h1 {
+    font-weight: normal;
+    text-align: center;
+    font-size: 55px;
+}
