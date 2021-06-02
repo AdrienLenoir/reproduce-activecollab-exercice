@@ -21,4 +21,5 @@ Vous pouvez visualiser la page web via cette url [reproduce-activecollab-exercic
 * **Adrien Lenoir** _alias_ [@AdrienLenoir](https://github.com/AdrienLenoir)
 
 <hr>
+
 ![css meme](https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif)
