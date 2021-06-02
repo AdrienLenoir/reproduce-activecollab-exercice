@@ -9,7 +9,7 @@ Exercice sur le HTML & CSS, visant à reproduire le plus fidèlement possible un
 
 ![Mockup](images/activecollab_mockup.png)
 
-##Voir le projet
+## Voir le projet
 
 Vous pouvez visualiser la page web via cette url [reproduce-activecollab-exercice](https://adrienlenoir.github.io/reproduce-activecollab-exercice/)
 
